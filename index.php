@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <h1>Badwords</h1>
+    <h1>PHP Badwords</h1>
     <!-- Form -->
     <form action="text.php" method="POST">
         <label for="paragraph">Inserisci un paragrafo</label>
-        <textarea name="paragraph" id="paragraph" cols="30" rows="10"></textarea>
+        <textarea name="paragraph" id="paragraph" rows="7"></textarea>
         <label for="word">Inserisci una parola</label>
         <input type="text" id="word" name="word">
+        <button>Invia</button>
     </form>
     <!-- Fine Form -->
 </body>
